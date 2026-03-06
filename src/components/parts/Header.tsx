@@ -5,7 +5,13 @@ const Header = ()=>{
     return (
         <>
            <div className="top-nav">
-             <p>This is the general App header</p>
+             <ul className='links'>
+                <li>Home</li>
+                <li>Search</li>
+                <li>Categories</li>
+                <li>Cart</li>
+                <li>Profile</li>
+             </ul>
            </div>
         </>
     );
