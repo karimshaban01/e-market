@@ -4,7 +4,9 @@ import { useNavigate } from 'react-router-dom';
 const Footer = ()=>{
     return(
         <>
-            <p>This is a footer of the app</p>
+           <div className='footer'>
+                 <p>This is a footer of the app</p>
+           </div>
         </>
     );
 }
