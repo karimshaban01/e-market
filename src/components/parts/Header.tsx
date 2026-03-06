@@ -4,7 +4,9 @@ import { useNavigate } from 'react-router-dom';
 const Header = ()=>{
     return (
         <>
-            <p>This is the general App header</p>
+           <div className="top-nav">
+             <p>This is the general App header</p>
+           </div>
         </>
     );
 }
