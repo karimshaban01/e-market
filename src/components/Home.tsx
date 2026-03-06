@@ -1,10 +1,15 @@
 import Header from "./parts/Header";
+import Footer from "./parts/Footer";
+import './components.css';
 
 const Home = ()=>{
     return(
         <>
         <Header />
-        <p>This is a home page</p>
+        <div className="body">
+             <p>This is the general App header</p>
+        </div>
+        <Footer />
         </>
     )
 }
