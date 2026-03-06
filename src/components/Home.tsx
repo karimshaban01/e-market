@@ -7,7 +7,7 @@ const Home = ()=>{
         <>
         <Header />
         <div className="body">
-             <p>This is the general App header</p>
+             <p>This is the App Body</p>
         </div>
         <Footer />
         </>
